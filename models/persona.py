@@ -1,10 +1,12 @@
 from database import Base
 from sqlalchemy import Column, Integer, String, Date
+from sqlalchemy.dialects.mssql import UNIQUEIDENTIFIER
+import uuid
 
 class Persona(Base):
     __tablename__ = "personas"
 
-    id = Column(Integer, primary_key=True, index=True)
+    id = Column(UNIQUEIDENTIFIER, primary_key=True, default=lambda: str(uuid.uuid4()))
     nombres = Column(String(100), nullable=False)
     apellidos = Column(String(100), nullable=False)
     tipo_documento = Column(String(20), nullable=False)
