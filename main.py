@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from database import crear_base_de_datos_si_no_existe, engine, Base
 import models
-from models import Computador
 from routers import empresa_router, persona_router
 
 app = FastAPI()
