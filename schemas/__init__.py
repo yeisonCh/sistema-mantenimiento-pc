@@ -1,3 +1,3 @@
 from .empresa import EmpresaCrear, EmpresaActualizar, EmpresaRespuesta
-from .persona import PersonaCrear, PersonaRespuesta
+from .persona import PersonaCrear, PersonaActualizar, PersonaRespuesta
 from .tipo_activo import CrearTipoActivo, ActualizarTipoActivo, TipoActivoRespuesta

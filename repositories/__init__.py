@@ -1,6 +1,14 @@
 # app/repositories/__init__.py
 
-from .persona import obtener_personas, obtener_persona_por_id, crear_persona
+from .persona import (
+    obtener_personas,
+    obtener_persona_por_id,
+    obtener_persona_por_documento,
+    obtener_persona_por_email,
+    crear_persona,
+    actualizar_persona,
+    eliminar_persona
+)
 from .tipo_activo import (
     obtener_tipos_activo,
     obtener_tipo_activo_por_id,
