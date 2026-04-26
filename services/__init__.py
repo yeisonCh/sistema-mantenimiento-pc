@@ -23,3 +23,14 @@ from .empresa import (
     service_actualizar_empresa,
     service_eliminar_empresa
 )
+
+from .activo import ( 
+    service_obtener_activos,
+    service_obtener_activo_por_id,
+    service_obtener_activos_por_tipo,
+    service_obtener_activos_por_empresa,
+    service_obtener_activos_por_estado,
+    service_crear_activo,
+    service_actualizar_activo,
+    service_eliminar_activo
+)
