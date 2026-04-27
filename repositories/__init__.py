@@ -38,3 +38,11 @@ from .usuario import (
     eliminar_usuario,
     borrar_usuario_permanentemente
 )
+
+from .ubicacion import (
+    obtener_ubicaciones,
+    obtener_ubicacion_por_id,
+    obtener_ubicaciones_por_empresa,
+    crear_ubicacion,
+    actualizar_ubicacion
+)
