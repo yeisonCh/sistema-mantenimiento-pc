@@ -26,6 +26,18 @@ from .empresa import (
     actualizar_empresa,
     eliminar_empresa
 )
+
+from .activo import (  # NUEVO
+    obtener_activos,
+    obtener_activo_por_id,
+    obtener_activo_por_serial,
+    obtener_activos_por_tipo,
+    obtener_activos_por_empresa,
+    obtener_activos_por_estado,
+    crear_activo,
+    actualizar_activo,
+    eliminar_activo
+)
 from .usuario import (
     obtener_usuarios,
     obtener_usuario_por_id,
