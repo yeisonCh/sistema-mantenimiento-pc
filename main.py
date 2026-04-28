@@ -7,7 +7,8 @@ from routers import (
     usuario_router, 
     ubicacion_router, 
     activo_router, 
-    tecnico_router)
+    tecnico_router,
+    activoUbicacion)
 
 app = FastAPI()
 
@@ -18,6 +19,7 @@ async def startup():
     print("✅ Tablas verificadas/creadas.")
 
 app.include_router(activo_router)
+app.include_router(activoUbicacion)
 app.include_router(empresa_router)
 app.include_router(persona_router)
 app.include_router(tipo_activo_router)
