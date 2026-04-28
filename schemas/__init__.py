@@ -5,3 +5,4 @@ from .usuario import UsuarioCrear, UsuarioActualizar, UsuarioRespuesta, UsuarioL
 from .activo import ActivoCrear, ActivoActualizar, ActivoRespuesta
 from .ubicacion import UbicacionCrear, UbicacionActualizar, UbicacionRespuesta
 from .tecnico import TecnicoCrear, TecnicoActualizar, TecnicoRespuesta
+from .activo_ubicacion import ActivoUbicacionCrear, ActivoUbicacionRespuesta

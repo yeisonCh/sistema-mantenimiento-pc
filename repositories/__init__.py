@@ -67,3 +67,10 @@ from .tecnico import (
     crear_tecnico,
     actualizar_tecnico
 )
+
+from .activo_ubicacion import (
+    obtener_historial_por_activo,
+    obtener_ubicacion_actual,
+    crear_movimiento,
+    retirar_ubicacion_actual
+)

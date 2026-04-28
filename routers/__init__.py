@@ -5,3 +5,4 @@ from .usuario import router as usuario_router
 from .activo import router as activo_router
 from .ubicacion import router as ubicacion_router
 from .tecnico import router as tecnico_router
+from .activo_ubicacion import router as activoUbicacion
